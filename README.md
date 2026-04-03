@@ -1,4 +1,4 @@
-# ComfyUI Txt Folder Indexer
+# ComfyUI TXT Prompt Loader
 
 A lightweight, high-efficiency custom node for **massive automated prompting** in ComfyUI. 
 
