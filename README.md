@@ -25,3 +25,13 @@ This node allows you to point to a local folder filled with `.txt` files and aut
 /ComfyUI/custom_nodes/ComfyUI-Txt-Folder-Indexer/
 ├── prompt_masina.py
 └── __init__.py
+```
+
+## Usage
+
+1. Add the node: `CustomNodes` -> `PromptHelpers` -> `Text Folder Indexer`.
+2. Enter the full path to your folder containing text files.
+3. On the `index` widget, change the control (at the bottom of the node) from **"fixed"** to **"increment"**.
+4. Right-click your **CLIP Text Encode** node and select **"Convert text to input"**.
+5. Connect the `text` output of this node to the `text` input of the CLIP node.
+6. Click **Queue Prompt**. The node will now cycle through your files one by one.
