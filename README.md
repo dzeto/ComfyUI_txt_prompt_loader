@@ -27,7 +27,7 @@ This node allows you to point to a local folder filled with `.txt` files and aut
 └── __init__.py
 ```
 
-## Usage
+## 📖 Usage
 
 1. Add the node: `CustomNodes` -> `PromptHelpers` -> `Text Folder Indexer`.
 2. Enter the full path to your folder containing text files.
